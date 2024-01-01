@@ -1,18 +1,32 @@
 import streamlit as st
+import os
 from langchain.document_loaders.csv_loader import CSVLoader
 from langchain.text_splitter import RecursiveCharacterTextSplitter
 from langchain.embeddings import HuggingFaceEmbeddings
 from langchain.vectorstores import FAISS
 from langchain.llms import CTransformers
-from langchain.memory import ConversationBufferMemory
 from langchain.chains import ConversationalRetrievalChain
-import sys
 
-def main():
-    st.title("Conversational Retrieval System")
+st.title("Conversational Retrieval System")
 
-    DB_FAISS_PATH = "vectorstore/db_faiss"
-    file_path = st.text_input("Enter CSV file path:", "data/heart.csv")
+DB_FAISS_PATH = "vectorstore/db_faiss"
+TEMP_DIR = "temp"
+
+# Create temp directory if it doesn't exist
+if not os.path.exists(TEMP_DIR):
+    os.makedirs(TEMP_DIR)
+
+# Sidebar for uploading CSV file
+uploaded_file = st.sidebar.file_uploader("Upload CSV file", type=['csv'])
+
+if uploaded_file is not None:
+    file_path = os.path.join(TEMP_DIR, uploaded_file.name)
+    with open(file_path, "wb") as f:
+        f.write(uploaded_file.getvalue())
+
+    st.write(f"Uploaded file: {uploaded_file.name}")
+    st.write("Processing CSV file...")
+
     loader = CSVLoader(file_path=file_path, encoding="utf-8", csv_args={'delimiter': ','})
     data = loader.load()
 
@@ -39,5 +53,4 @@ def main():
         result = qa({"question": query, "chat_history": chat_history})
         st.write("Response:", result['answer'])
 
-if __name__ == "__main__":
-    main()
+    os.remove(file_path)  # Remove the temporary file after processing
