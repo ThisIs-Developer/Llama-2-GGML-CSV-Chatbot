@@ -1,7 +1,7 @@
 # 🦙 Llama-2-GGML-CSV-Chatbot
 
 ## Overview
-The Llama-2-GGML-CSV-Chatbot is a conversational tool powered by a fine-tuned large language model (LLM) known as Llama-2 7B. This chatbot utilizes CSV retrieval capabilities, enabling users to engage in multi-turn interactions based on uploaded CSV data.
+The **Llama-2-GGML-CSV-Chatbot** is a conversational tool powered by a fine-tuned large language model (LLM) known as *Llama-2 7B*. This chatbot utilizes CSV retrieval capabilities, enabling users to engage in multi-turn interactions based on uploaded CSV data.
 
 ## 🚀 Features
 
@@ -9,8 +9,8 @@ The Llama-2-GGML-CSV-Chatbot is a conversational tool powered by a fine-tuned la
 - **Multi-turn Interaction:** Supports seamless multi-turn interactions for a better conversational experience.
 
 ## Development Specs
-- Utilizes Llama-2 7B and Sentence Transformers for robust functionality.
-- Developed using Langchain and Streamlit technologies for enhanced performance.
+- Utilizes [Llama-2 7B](https://huggingface.co/TheBloke/Llama-2-7B-Chat-GGML/tree/main) and [Sentence Transformers](https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2) for robust functionality.
+- Developed using [Langchain](https://github.com/langchain-ai/langchain) and [Streamlit](https://github.com/streamlit/streamlit) technologies for enhanced performance.
 - Cross-platform compatibility with Linux, macOS, or Windows OS.
 
 ## 🛠️ Installation
@@ -62,7 +62,7 @@ Download the Llama 2 model file named `llama-2-7b-chat.ggmlv3.q4_0.bin` from the
 
 ## 📌 Important Notes
 
-- The application operates on a pre-set CSV file and does not support CSV upload in the initial version.
+- While robust, this chatbot is not a substitute for professional advice.
 - Ensure the CSV file adheres to the expected format for optimal performance.
 
 ## 🤝 Contributing
@@ -71,4 +71,4 @@ Contributions and suggestions are welcome! Feel free to fork the repository, mak
 
 ## 📄 License
 
-[License Name/Link] - Specify the license information for the project.
+[MIT/https://github.com/ThisIs-Developer/Llama-2-GGML-CSV-Chatbot/blob/main/LICENSE] - Specify the license information for the project.
