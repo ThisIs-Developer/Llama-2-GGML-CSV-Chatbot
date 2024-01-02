@@ -69,8 +69,7 @@ Download the Llama 2 model file named `llama-2-7b-chat.ggmlv3.q4_0.bin` from the
 
 ## 📌 Important Notes
 
-- While robust, this chatbot is not a substitute for professional advice.
-- Ensure the CSV file adheres to the expected format for optimal performance.
+- While powerful, this chatbot isn't a substitute for professional medical advice.
 
 ## 🤝 Contributing
 
@@ -78,4 +77,4 @@ Contributions and suggestions are welcome! Feel free to fork the repository, mak
 
 ## 📄 License
 
-This project is licensed under the [MIT License](https://github.com/ThisIs-Developer/Llama-2-GGML-CSV-Chatbot/blob/main/LICENSE).
+This project is licensed under the [MIT License](https://github.com/ThisIs-Developer/Llama-2-GGML-Medical-Chatbot/blob/main/LICENSE).
