@@ -3,8 +3,7 @@
 ## Overview
 The **Llama-2-GGML-CSV-Chatbot** is a conversational tool powered by a fine-tuned large language model (LLM) known as *Llama-2 7B*. This chatbot utilizes CSV retrieval capabilities, enabling users to engage in multi-turn interactions based on uploaded CSV data.
 
-<img width="400" src="https://user-images.githubusercontent.com/74038190/219923809-b86dc415-a0c2-4a38-bc88-ad6cf06395a8.gif">
-![workflow_1](https://github.com/ThisIs-Developer/Llama-2-GGML-CSV-Chatbot/assets/109382325/0f88e224-3667-486e-af5b-36eac4e624d2)
+<img width="400" src="assets/workflow_1.jpg">
 
 ## 🚀 Features
 
