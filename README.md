@@ -30,7 +30,7 @@ The **Llama-2-GGML-CSV-Chatbot** is a conversational tool powered by a fine-tune
 
 Download the Llama 2 model file named `llama-2-7b-chat.ggmlv3.q4_0.bin` from the following link:
 
-[Download Llama 2 Model](https://huggingface.co/TheBloke/Llama-2-7B-Chat-GGML/tree/main)
+[🔗Download Llama 2 Model](https://huggingface.co/TheBloke/Llama-2-7B-Chat-GGML/tree/main)
 
 ### Llama 2 Model Information
 
