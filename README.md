@@ -62,6 +62,11 @@ Download the Llama 2 model file named `llama-2-7b-chat.ggmlv3.q4_0.bin` from the
 - Enter your query or prompt in the input field provided.
 - The chatbot will process your query and generate a response based on the uploaded CSV data and the Llama-2-7B-Chat-GGML model.
 
+## 📖 ChatBot Conversession
+
+### ⚡Streamlit ver. on [#v2.0.2.dev20240102](https://github.com/ThisIs-Developer/Llama-2-GGML-CSV-Chatbot/releases/tag/v2.0.2.dev20240102)
+![ChatBot Conversession img-1 png](https://github.com/ThisIs-Developer/Llama-2-GGML-CSV-Chatbot/assets/109382325/86102dd9-d078-46c5-aa55-dd9fbd7ed2ea)
+
 ## 📌 Important Notes
 
 - While robust, this chatbot is not a substitute for professional advice.
