@@ -71,4 +71,4 @@ Contributions and suggestions are welcome! Feel free to fork the repository, mak
 
 ## 📄 License
 
-[MIT/https://github.com/ThisIs-Developer/Llama-2-GGML-CSV-Chatbot/blob/main/LICENSE] - Specify the license information for the project.
+This project is licensed under the [MIT License](https://github.com/ThisIs-Developer/Llama-2-GGML-CSV-Chatbot/blob/main/LICENSE).
