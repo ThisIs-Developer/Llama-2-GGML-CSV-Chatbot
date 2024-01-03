@@ -1,4 +1,7 @@
+streamlit
 langchain
-ctransformers
+torch
+pandas
 sentence-transformers
-faiss-cpu
+faiss
+transformers
