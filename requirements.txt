@@ -1,7 +1,7 @@
-streamlit
-langchain
-torch
-pandas
-sentence-transformers
-faiss
-transformers
+streamlit==0.89.0
+langchain==0.1.0
+torch==1.9.0
+sentence-transformers==2.0.0
+faiss-cpu==1.7.0
+transformers==4.11.3
+pandas==1.3.3
