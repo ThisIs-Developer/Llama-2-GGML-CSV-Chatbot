@@ -3,5 +3,5 @@ langchain==0.1.4
 torch==2.1.2
 sentence-transformers==2.2.2
 faiss-cpu==1.7.4
-transformers==4.36.2
+transformers==4.37.2
 pandas==2.1.4
